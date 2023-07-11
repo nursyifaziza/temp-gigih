@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+input {
+    padding: 4px;
+}
+
+.login-wrapper {
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-wrapper .container {
+    width: 360px;
+    padding: 36px 40px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+}
+
+.login-wrapper label,
+.login-wrapper input,
+.login-wrapper button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.login-wrapper input {
+    padding: 8px 0;
+    margin-bottom: 16px;
+}
+
+.login-wrapper button {
+    padding: 16px 0;
+    margin-top: 16px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
