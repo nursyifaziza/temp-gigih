@@ -209,5 +209,5 @@ const popular_songs = [
 ];
 
 db.artists.insertMany(artists);
-db.artists.insertMany(songs);
-db.artists.insertMany(popular_songs);
+db.songs.insertMany(songs);
+db.popular_songs.insertMany(popular_songs);
